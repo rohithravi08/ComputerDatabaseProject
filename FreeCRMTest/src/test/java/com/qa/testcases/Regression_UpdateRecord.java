@@ -112,8 +112,7 @@ public class Regression_UpdateRecord extends TestBase{
 	//verify the updated values
 	@Test(priority=7)
 	public void updatedValueValidation() {
-		new_values=homepage.searchElement(new_computerName);
-		new_values.forEach(System.out::print);
+		new_values=homepage.searchElement(new_computerName);		
 		Assert.assertEquals(new_values.get(0), new_computerName);
 		Assert.assertEquals(new_values.get(1), util.dateConversion(new_introducedDate));
 		Assert.assertEquals(new_values.get(2), util.dateConversion(new_discontinuedDate));
