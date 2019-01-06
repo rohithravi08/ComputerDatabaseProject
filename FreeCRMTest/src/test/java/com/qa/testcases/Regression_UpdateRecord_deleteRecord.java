@@ -13,7 +13,7 @@ import com.qa.pages.EditComputer;
 import com.qa.pages.HomePage;
 import com.qa.util.TestUtil;
 
-public class Regression_UpdateRecord extends TestBase{
+public class Regression_UpdateRecord_deleteRecord extends TestBase{
 	
 	HomePage homepage;
 	int numberOfComputer;
@@ -33,7 +33,7 @@ public class Regression_UpdateRecord extends TestBase{
 	
 	
 	//initialising property variables
-	public Regression_UpdateRecord() {
+	public Regression_UpdateRecord_deleteRecord() {
 		super();
 	}
 	

@@ -12,7 +12,7 @@ import com.qa.pages.AddComputer;
 import com.qa.pages.HomePage;
 import com.qa.util.TestUtil;
 
-public class Regression_AddNewComputer extends TestBase{
+public class Regression_AddNewComputer_SearchFunctionality extends TestBase{
 	
 	HomePage homepage;
 	int numberOfComputer;
@@ -25,7 +25,7 @@ public class Regression_AddNewComputer extends TestBase{
 	
 	
 	//initialising property variables
-	public Regression_AddNewComputer() {
+	public Regression_AddNewComputer_SearchFunctionality() {
 		super();
 	}
 	
